@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1090433339137",
+    "project_id": "flutter-ticketing",
+    "storage_bucket": "flutter-ticketing.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090433339137:android:0da883f4793283851d5500",
+        "android_client_info": {
+          "package_name": "com.example.skl_1_event_ticketing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJOhP-x3HhaJh2pbnLgecRIA_ohnMTiZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
