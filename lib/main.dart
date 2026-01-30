@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart'; // Import the generated file
+import 'package:flutter_native_splash/flutter_native_splash.dart';// Import the generated file
 import 'package:skl_1_event_ticketing/pages/home_page.dart';
 
 
@@ -10,9 +8,6 @@ void main() {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
      WidgetsFlutterBinding.ensureInitialized();
-  Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
   
   runApp(const MyApp());
 }
